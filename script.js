@@ -18,7 +18,7 @@ choices.forEach((choice) =>{
         if(choiceId===compChoice){
             myStatus.innerText = "Choices Drawn!";
         }
-        else if((choiceId==="rock" && compChoice==="scissor") || (choiceId==="paper" && compChoice==="stone") || (choiceId==="scissor" && compChoice==="paper")){
+        else if((choiceId==="rock" && compChoice==="scissor") || (choiceId==="paper" && compChoice==="rock") || (choiceId==="scissor" && compChoice==="paper")){
             userScore++;
             userPoints.innerText = userScore;
             myStatus.innerText = "You win!";
