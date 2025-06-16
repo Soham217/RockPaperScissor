@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+}
+
+.comp, .user{
+    margin: 1.5rem;
+}
+
+#user-points, #comp-points{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+#user-score, #comp-score{
+    color : white;
+    font-size: 1.5rem;
+}
+
+.status{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    height: 6rem;
+    line-height: 11rem;
+}
+
+.content{
+    height: 100vh;
+    background-image: url(Rock-paper-scissors.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    background-color: rgb(15, 21, 51);
+    color: white;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+#rock, #paper, #scissor{
+    height: 8rem;
+    width: 8rem;
+}
+
+#rock-name, #paper-name, #scissor-name{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#rock{
+    background-image: url(rock-Photoroom.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#paper{
+    background-image: url(papers-Photoroom.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#scissor{
+    background-image: url(scissor-Photoroom.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.choices{
+    height: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rock, .paper, .scissor{
+    margin: 1.5rem;
+    border-radius: 2rem;
+}
+
+.rock:hover, .paper:hover, .scissor:hover{
+    background-color: rgb(15, 21, 51,0.75);
+    cursor: pointer;
+}
